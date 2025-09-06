@@ -1,0 +1,7 @@
+git init
+ls -a                                      : show all hidden files
+ls .git                                    : inside .git folder
+touch name.txt
+git status
+git add .                                   : put all untracked files in staging area
+git commit -m "message"

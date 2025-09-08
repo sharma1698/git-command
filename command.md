@@ -12,6 +12,8 @@ git config --global user.name               : to check username
 git log                                     : commit history
 rm -rf name.txt                             : -r : remove directories and its contact ; -f: forcefully  ; command : delete file
 git reset commit_id                         : if mistakenly done commit and want to restore then check git log and get commit id , if 3 commits and want to delete
+                                            : after reset check the status , file get unstaged we can add and can do stash
+                                            : we have to do force push code
 git stash                                   : rather doing commit , do stash then code we want in temporary basis will be at somewhere ,we have code and we donot want to make commit and when git status then it will not show any commit
                                             : first do some change and git add . then rather than commit do git stash . it will not commit code and don't create log
 git stash pop                               : if we want to the file changes in stash to commit means come from background to commit state

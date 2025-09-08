@@ -20,4 +20,7 @@ git remote add origin https://github.com/sharma1698/git-command.git             
 # git remote -v
     show all url (remote repository) attach to current project
 # git push origin branchname : here origin is https://github.com/sharma1698/git-command.git
+# git log --oneline  :
+        check commit history
+
 

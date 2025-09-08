@@ -23,4 +23,5 @@ git remote add origin https://github.com/sharma1698/git-command.git             
 # git log --oneline  :
         check commit history
 
+# git merge develop  : to merge develop branch with master branch make sure code of master branch mush be commited
 
